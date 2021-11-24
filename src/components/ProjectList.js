@@ -13,7 +13,7 @@ function ProjectList({ projects }) { //projects is arr of objs
           return <ProjectItem id={project.id} 
                               name={project.name} 
                               about={project.about} 
-                              techonlogies={project.technologies} />
+                              technologies={project.technologies} />
         })
       }</div>
     </div>
